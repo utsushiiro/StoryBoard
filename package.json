@@ -1,0 +1,32 @@
+{
+  "name": "redux-todo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server/bin/www",
+    "build": "webpack",
+    "build:watch": "webpack --watch",
+    "format": "prettier --write 'server/**/*.js' 'client/**/*.js'"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "prettier": "^1.16.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
