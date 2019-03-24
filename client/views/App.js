@@ -1,12 +1,12 @@
 import React from "react";
-import TodoList from "./containers/TodoList";
+import TaskList from "./containers/TaskList";
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Todo App</h1>
-        <TodoList />
+        <h1>StoryBoard</h1>
+        <TaskList />
       </div>
     );
   }
