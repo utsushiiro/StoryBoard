@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "node ./server/bin/www",
+    "server": "node ./server/bin/www",
+    "server:dev": "nodemon ./server/bin/www --watch server",
     "build": "webpack",
     "build:watch": "webpack --watch",
     "format": "prettier --write 'server/**/*.js' 'client/**/*.js'"
@@ -26,6 +27,7 @@
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
     "prettier": "^1.16.4",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
