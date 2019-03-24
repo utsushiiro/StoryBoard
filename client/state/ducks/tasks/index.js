@@ -1,7 +1,7 @@
-import todosReducer from "./reducers";
+import tasksReducer from "./reducers";
 
-// export { default as todosSelectors } from "./selectors";
-// export { default as todosOperations } from "./operations";
-// export { default as todosTypes } from "./types";
+export { default as tasksSelectors } from "./selectors";
+// export { default as tasksOperations } from "./operations";
+// export { default as tasksTypes } from "./types";
 
-export default todosReducer;
+export default tasksReducer;

@@ -1,8 +1,11 @@
-import TaskList from "../components/TaskList";
 import { connect } from "react-redux";
+import TaskList from "../components/TaskList";
+import { tasksSelectors } from "../../state/ducks/tasks";
 
 const mapStateToProps = state => {
-  return state;
+  return {
+    tasks: tasksSelectors.getTasks(state)
+  };
 };
 
 const mapDispatchToProps = dispatch => {
