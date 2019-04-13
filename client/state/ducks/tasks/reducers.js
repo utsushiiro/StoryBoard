@@ -1,10 +1,14 @@
 const initialState = {
   tasks: [
     {
-      text: "task1"
+      title: "task1",
+      description: "task1 description",
+      createdAt: "2019-3-22"
     },
     {
-      text: "task2"
+      title: "task2",
+      description: "task2 description",
+      createdAt: "2019-3-23"
     }
   ]
 };

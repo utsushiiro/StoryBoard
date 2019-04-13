@@ -10,6 +10,7 @@
     "format": "prettier --write 'server/**/*.js' 'client/**/*.js'"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "express": "~4.16.0",
